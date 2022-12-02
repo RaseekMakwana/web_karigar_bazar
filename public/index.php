@@ -5,21 +5,6 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
-date_default_timezone_set("Asia/Calcutta");   //India time (GMT+5:30)
-
-function p($value, $flag = 0){
-    echo "<pre>";
-    print_r($value);
-    echo "</pre>";
-    if($flag == 0){
-        exit();
-    }
-}
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 /*
 |--------------------------------------------------------------------------
 | Check If The Application Is Under Maintenance
@@ -31,7 +16,7 @@ error_reporting(E_ALL);
 |
 */
 
-if (file_exists($maintenance = __DIR__.'/storage/framework/maintenance.php')) {
+if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
     require $maintenance;
 }
 
@@ -46,7 +31,7 @@ if (file_exists($maintenance = __DIR__.'/storage/framework/maintenance.php')) {
 |
 */
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -59,7 +44,7 @@ require __DIR__.'/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/bootstrap/app.php';
+$app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
