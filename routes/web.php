@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Web\HomeController;
-use App\Http\Controllers\Web\AuthenticationController;
-use App\Http\Controllers\Web\PostYourRequirementController;
-use App\Http\Controllers\Web\CategoryController;
-use App\Http\Controllers\Web\VendorSearchController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AuthenticationController;
+use App\Http\Controllers\PostYourRequirementController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\VendorSearchController;
 
-use App\Http\Controllers\Web\VendorAccountModule\VendorDashboard;
-use App\Http\Controllers\Web\VendorAccountModule\VendorProfileController;
-use App\Http\Controllers\Web\VendorAccountModule\VendorProjectController;
+use App\Http\Controllers\VendorAccountModule\VendorDashboard;
+use App\Http\Controllers\VendorAccountModule\VendorProfileController;
+use App\Http\Controllers\VendorAccountModule\VendorProjectController;
 
 
 
