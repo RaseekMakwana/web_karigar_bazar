@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Web;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Home;
 use App\Helpers\CommonFunction;
 use App\Services\RestApi;
-use App\Http\Controllers\Web\Traits\MetadataTrait;
+use App\Http\Controllers\Traits\MetadataTrait;
 
 
 class HomeController extends Controller

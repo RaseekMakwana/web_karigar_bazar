@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Web;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Services\RestApi;
 use App\Models\V1\Category;
-use App\Http\Controllers\Web\Traits\MetadataTrait;
+use App\Http\Controllers\Traits\MetadataTrait;
 
 class VendorSearchController extends Controller
 {

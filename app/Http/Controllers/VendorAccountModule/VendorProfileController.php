@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web\VendorAccountModule;
+namespace App\Http\Controllers\VendorAccountModule;
 
 use App\Http\Controllers\Controller;
 use Request, Session, Redirect;

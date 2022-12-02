@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web\Traits;
+namespace App\Http\Controllers\Traits;
 
 use Cookie;
 use Illuminate\Http\JsonResponse;
