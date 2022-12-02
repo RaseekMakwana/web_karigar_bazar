@@ -56,7 +56,7 @@ return [
 
     'url' => env('APP_URL'),
 
-    'api_url' => env('APP_URL')."/api/v1/",
+    'api_url' => env('API_URL'),
 
     'storage_url' => env('STORAGE_URL'),
 
