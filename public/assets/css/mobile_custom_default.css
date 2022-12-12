@@ -1,0 +1,63 @@
+label.error{ color: #e12727; } 
+
+.ui-autocomplete-input-has-clear {
+    padding-right: 10px * 1.5;
+  }
+  
+.ui-autocomplete-input-has-clear::-ms-clear {
+    display: none;
+}
+
+.ui-autocomplete-clear {
+display: inline-block;
+font-size: 22px;
+text-align: center;
+cursor: pointer;
+}
+
+.search_compoments input{ border-radius: 0px; }
+
+.transition_image img{ transition: 0.5s all ease-in-out; }
+.transition_image img:hover{ transform: scale(1.2); }
+.card-header { overflow: hidden; }
+
+/* Home Page  */
+.home_links_class a{ color:black; text-decoration: none; }
+.home_category_class .category_label{ text-align: center; } 
+.home_category_class a{ color:black; text-decoration: none; } 
+
+.form-control:focus{ border: 1px solid #ced4da; box-shadow: none; }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    #header_search_option { width: 10px !important; }
+    #header_search_text { width: 115px  !important; }
+    .header_image_col_div{ text-align:center !important }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #header_search_option { width: 10px !important; }
+    #header_search_text { width: 180px  !important; }
+    .header_image_col_div{ text-align:center !important }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #header_search_option { width: 10px !important; }
+    #header_search_text { width: 320px  !important; }
+    .header_image_col_div{ text-align:center !important }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #header_search_option { width: 10px !important; }
+    #header_search_text { width: 150px  !important; }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #header_search_option { width: 10px !important; }
+    #header_search_text { width: 280px  !important; }
+    /* .header_image_col_div{ justify-content:center !important } */
+}
